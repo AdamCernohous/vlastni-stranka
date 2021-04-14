@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@700&family=Raleway:wght@200;400;700&display=swap');
+
+html{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+.uvod a{
+    font-size: 16px;
+    color: black;
+}
+
+.uvod ul{
+    background-color: white;
+}
+
+.uvod li:hover{
+    background-color: black;
+}
+
+.uvod a:hover{
+    color: white;
+}
+
+.uvod h1{
+    font-family: "Manjari";
+    font-style: bold;
+    font-weight: 700;
+    font-size: 112px;
+    color: white;
+}
+
+.uvod p{
+    font-family: "Manjari";
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+}
+
+@media(max-width:768px){
+    .uvod h1{
+        font-size: 72px;
+    }
+
+    .uvod p{
+        font-size: 28px;
+    }
+}
+
+h2{
+    font-weight: 200;
+    font-style: normal;
+    font-size: 40px;
+    color: black;
+    background-color: white;
+}
+
+.produkty.box{
+    color: white;
+}
+
+.produkty h3{
+    font-weight: 200;
+    font-style: normal;
+    font-size: 28px;
+    color: white;
+}
+
+.nadchazejici h3{
+    font-family: "Raleway";
+    font-weight: 200;
+    font-size: 72px;
+    color: white;
+}
+
+.nadchazejici.box p{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+}
+
+#datum{
+    font-family: "Raleway";
+    font-weight: 200;
+    font-size: 32px;
+    color: white;
+}
+
+.galerie h3{
+    font-weight: "Raleway";
+    font-weight: 200;
+    font-size: 28px;
+    color: white;
+}
+
+.footer{
+    background-color: dimgrey;
+}
+
+.footer h3{
+    font-size: 56px;
+    color: white;
+    font-weight: 200;
+}
+
+.footer a{
+    color: white;
+    font-weight: 200;
+}

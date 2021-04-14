@@ -1,0 +1,419 @@
+.uvod{
+    box-sizing: border-box;
+    display: block;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    background: url("./pictures/uvodka.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.navbar li{
+    display: inline;
+    padding: 24px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.uvod a{
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+
+@media(max-width:768px){
+    .navbar a{
+        padding: 15px;
+    }
+}
+
+.uvod h1{
+    text-align: center;
+    padding-top: 240px;
+    margin-bottom: 0;
+}
+
+.uvod p{
+    text-align: center;
+}
+
+.uvod img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 156px;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+
+#novinky_bg{
+    box-sizing: border-box;
+    display: block;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    background: url("./pictures/novinky_bg.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 60px white;
+}
+
+.novinky{
+    max-width: 960px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.novinky.box{
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width:768px){
+    .novinky.box{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.novinky.box.n1{
+    margin: 40px;
+    margin-left: 80px;
+    margin-right: 0;
+}
+
+.novinky.box.n1 img{
+    width: 280px;
+    height: 280px;
+}
+
+@media(max-width:768px){
+    .novinky.box.n1 img{
+        margin-left: 10px;
+    }
+}
+
+.novinky.box.n2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+@media(max-width:768px){
+    .novinky.box.n2{
+        width: 300px;
+        margin-top: 0;
+    }
+}
+
+#produkty_bg{
+    box-sizing: border-box;
+    display: block;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    background: url("./pictures/apple_bg.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 60px white;
+}
+
+h2{
+    text-align: center;
+    border-bottom: white 20px solid;
+    margin-bottom: 0;
+}
+
+.produkty{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produkty.box{
+    background-color: black;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+
+.produkty img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+
+@media(max-width:768px){
+    .produkty img{
+        max-width: 100vw;
+    }
+}
+
+.produkty h3{
+    padding-top: 20px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.produkty p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#button1{
+    background-color: dodgerblue;
+    border: dodgerblue 5px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    flex-wrap: nowrap;
+}
+
+#button1:hover{
+    color: black;
+    background-color: white;
+    background-color: white;
+    border: white 5px solid;
+}
+
+#button2{
+    background-color: dodgerblue;
+    border: dodgerblue 5px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    flex-wrap: nowrap;
+}
+
+#button2:hover{
+    color: black;
+    background-color: white;
+    background-color: white;
+    border: white 5px solid;
+}
+
+@media(max-width:768px){
+    .produkty.box-buttons{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #button1{
+        margin-left: 16vw;
+    }
+
+    #button2{
+        margin-left: 16vw;
+    }
+}
+
+#nadchazejici_bg{
+    box-sizing: border-box;
+    display: block;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    background: url("./pictures/nadchazejici_bg.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 60px white;
+}
+
+.nadchazejici{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: white 20px solid;
+    border-right: white 20px solid;
+}
+
+.nadchazejici h3{
+    padding-top: 40px;
+    margin: 40px;
+    margin-top: 0;
+    max-width: 400px;
+}
+
+.nadchazejici-img01{
+    background-image: url(./pictures/ps5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nadchazejici-img02{
+    background-image: url(./pictures/xbox.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nadchazejici-img03{
+    background-image: url(./pictures/iphone_upcomming.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nadchazejici.box p{
+    margin-left: 40px;
+    max-width: 400px;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+
+#datum{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+#galerie_bg{
+    box-sizing: border-box;
+    display: block;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    background: url("./pictures/galerie_bg.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 60px white;
+}
+
+.galerie{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galerie h3{
+    text-align: center;
+}
+
+.galerie.box-n1 h3{
+    padding-top: 500px;
+}
+
+.galerie.box-n2 h3{
+    padding-top: 200px;
+}
+
+.galerie.box-n1{
+    background-image: url(./pictures/galerie_n1.jpg);
+    width: 960px;
+    height: 540px;
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width:768px){
+    .galerie.box-n1{
+        max-width: 100vw;
+    }
+}
+
+.galerie.box-n2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.galerie.box-n2-1{
+    background-image: url(./pictures/galerie_n2.jpg);
+    width: 480px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+}
+
+.galerie.box-n2-2{
+    background-image: url(./pictures/galerie_n3.jpg);
+    width: 480px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+}
+
+.galerie.box-n3 h3{
+    padding-top: 500px;
+}
+
+.galerie.box-n4 h3{
+    padding-top: 200px;
+}
+
+.galerie.box-n3{
+    background-image: url(./pictures/galerie_n4.jpg);
+    width: 960px;
+    height: 540px;
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width:768px){
+    .galerie.box-n3{
+        max-width: 100vw;
+    }
+}
+
+.galerie.box-n4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.galerie.box-n4-1{
+    background-image: url(./pictures/galerie_n5.jpg);
+    width: 480px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+}
+
+.galerie.box-n4-2{
+    background-image: url(./pictures/galerie_n6.jpg);
+    width: 480px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer h3{
+    padding-top: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    margin: 0;
+    padding-bottom: 20px;
+}
